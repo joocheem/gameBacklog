@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GameBacklog</string>
+    <string name="add_title">Title</string>
+    <string name="add_platform">Platform</string>
+    <string name="add_notes">Notes</string>
+    <string name="add_status">Status</string>
+    <string name="status_playing">Playing</string>
+    <string name="status_wantToPlay">Want to play</string>
+    <string name="status_stalled">Stalled</string>
+    <string name="status_dropped">Dropped</string>
+</resources>

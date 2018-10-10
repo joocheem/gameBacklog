@@ -34,7 +34,7 @@ public class PortalAdapter extends RecyclerView.Adapter<PortalAdapter.ViewHolder
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         final Portal portal = mData.get(position);
-        holder.myTextView.setText(portal.getTile());
+        holder.myTextView.setText(portal.getTitle());
         holder.myTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

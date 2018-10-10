@@ -6,11 +6,11 @@ import java.io.Serializable;
 public class Portal implements Serializable {
 
     String url;
-    String tile;
+    String title;
 
-    public Portal(String url, String tile) {
+    public Portal(String url, String title) {
         this.url = url;
-        this.tile = tile;
+        this.title = title;
     }
 
     public String getUrl() {
@@ -21,12 +21,12 @@ public class Portal implements Serializable {
         this.url = url;
     }
 
-    public String getTile() {
-        return tile;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTile(String tile) {
-        this.tile = tile;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
 
